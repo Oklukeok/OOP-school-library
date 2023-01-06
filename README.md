@@ -26,9 +26,6 @@ After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
   <h3><b>OOP school library</b></h3>
 
@@ -60,28 +57,55 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [OOP school library] <a name="about-project"></a>
+# 📖 OOP school library <a name="about-project"></a>
 
 > Imagine that you are the librarian of OOP University, and you need a tool to record what books are in the library and who borrows them. This app will allow you to do it.
 
+** OOP school library** is an app made with Ruby to record all book movement from a library.
 
-## 🛠 Built With <a name="built-with">RUBY</a>
+## 🛠 Built With <a name="built-with">Ruby</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 > Object Oriented Programming
 
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.ruby-lang.org/">Ruby</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[Add new students or teachers.]**
+- **[Add new books.]**
+- **[Save records of who borrowed a given book and when.]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-
-In order to run this project you need:
 
 Install Ruby
 
@@ -89,8 +113,9 @@ Install Ruby
 
 Clone this repository to your desired folder:
 
-  git clone git@github.com:Oklukeok/OOP-school-library.git
+git clone git@github.com:Oklukeok/OOP-school-library.git
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
@@ -104,23 +129,20 @@ Clone this repository to your desired folder:
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
+## 🔭 Future Features <a name="future-features"></a>
 
+> Describe 1 - 3 features you will add to the project.
 
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+- **[Add new students or teachers.]**
+- **[Add new books.]**
+- **[Save records of who borrowed a given book and when.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- SUPPORT -->
 
@@ -133,7 +155,6 @@ If you like this project...
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
