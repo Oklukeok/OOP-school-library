@@ -1,28 +1,41 @@
-require_relative './nameable'
+require 'securerandom'
+require './nameable'
+
 class Person < Nameable
-  attr_accessor :id, :name, :age
+  # Atributos de instancia
+  attr_accessor :name, :age, :rentals, :parent_permission
+  attr_reader :id
 
-  def initialize(age, name = 'Unknown', parent_permission: true)
-    super()
-    @id = Random.rand(1..1000)
-    @name = name
+  def initialize(age = 0, name = 'Unknown', nameable = 'Unknown', parent_permission: true)
+    @id = SecureRandom.uuid
     @age = age
+    @name = name
+    @nameable = nameable
     @parent_permission = parent_permission
+    @rentals = []
+    super()
   end
 
-  def isof_age?
-    age >= 18
+  # Método privado
+  private
+
+  def of_age?
+    @age >= 18
   end
+
+  # Método público
+  public
 
   def can_use_services?
-    age >= 18 || parent_permission == true
+    of_age? || @parent_permission
   end
 
   def correct_name
-    @name
+    @nameable
   end
 
-  def add_rental(book, date)
-    Rental.new(date, book, self)
+  def add_rentals(rental)
+    @rentals.push(rental)
+    rental.person = self
   end
 end
