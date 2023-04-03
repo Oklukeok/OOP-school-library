@@ -3,7 +3,7 @@
 
 
 <div align="center">
-<img src="https://cdn-icons-png.flaticon.com/512/1458/1458235.png" alt="logo" width="140"  height="auto" />
+<img src="https://cdn-icons-png.flaticon.com/512/3275/3275766.png" alt="logo" width="140"  height="auto" />
   <br/>
   <h3><b>OOP school library</b></h3>
 
